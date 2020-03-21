@@ -1,0 +1,32 @@
+.head {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.menu {
+    text-align: center
+}
+
+.menu-item {
+    display: inline-block;
+    margin-right: 120px;
+    margin-top: 75px;
+    margin-top: 75px;
+    margin-bottom: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.menu-item:hover {
+    color: #25b4f5;
+}
+
+.menu-item:active {
+    color: tomato;
+}
+
+.menu-item:last-child {
+    margin-right: 0;
+}
