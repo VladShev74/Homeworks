@@ -6,15 +6,13 @@
 }
 
 .menu {
-    text-align: center
+    text-align: center;
+    margin: 75px 0 100px 0;
 }
 
 .menu-item {
     display: inline-block;
     margin-right: 120px;
-    margin-top: 75px;
-    margin-top: 75px;
-    margin-bottom: 100px;
     text-align: center;
     cursor: pointer;
 }
