@@ -1,0 +1,76 @@
+.team {
+    font-family: 'Montserrat', sans-serif;
+     text-align: center;
+     margin: auto ;
+     width: 1163px;
+}
+
+.team_title {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    color: #333333;
+    margin-bottom: 22px;
+}
+
+.team_main_title {
+    color: #333333;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 46px;
+}
+
+.team_main_title:after {
+    content: "";
+    width: 61px;
+    height: 4px;
+    background-color: #F38181;
+    display: block;
+    margin: auto;
+    margin-top: 41px;
+}
+
+.team_main_text {
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 90px;
+}
+
+.team_card_container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-bottom: 80px;
+}
+
+.team_card {
+    margin-right: 20px;
+}
+
+.team_card_img {
+    width: 380px;
+    margin-bottom: 30px;
+}
+
+.team_card_text_wrapper {
+    text-align: center;
+}
+
+.member_name {
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #333333;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.member_profession {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    color: #999999;
+    font-size: 15px;
+}
