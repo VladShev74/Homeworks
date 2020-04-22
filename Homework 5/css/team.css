@@ -2,7 +2,7 @@
     font-family: 'Montserrat', sans-serif;
      text-align: center;
      margin: auto ;
-     width: 1163px;
+     width: 1200px;
 }
 
 .team_title {
@@ -48,7 +48,6 @@
 
 .team_card {
     width: 380px;
-    margin-right: 20px;
 }
 
 .team_card_img {
