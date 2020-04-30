@@ -1,0 +1,13 @@
+@import "./reset.css";
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&display=swap');
+
+/* font-family: 'Montserrat', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,700,900&display=swap');
+
+/* font-family: 'Roboto', sans-serif; */
+
+@import "./header.css";
+
+@import "./partners.css";

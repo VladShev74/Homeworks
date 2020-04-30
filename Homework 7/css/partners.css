@@ -1,0 +1,137 @@
+.partners {
+    padding: 68px 1rem 0 1rem;
+    text-align: center;
+}
+
+.partners_title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.partner_card {
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 28px;
+}
+
+.img_wrapper {
+    margin: 0 auto 20px auto;
+    width: 122px;
+    height: 122px;
+    position: relative;
+}
+
+.partner_img {
+    border-radius: 50%;
+}
+
+.partner_icon_wrapper {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 33px;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+.red_wrapper{
+    background-color: #ff4e50;
+}
+
+.yellow_wrapper {
+    background-color: #ffa507;
+}
+
+.green_wrapper {
+    background-color: #1cd7ad;
+}
+
+.blue_wrapper {
+    background-color: #4e73db;
+}
+
+.partner_name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+    margin-bottom: 16px;
+}
+
+.about_partner {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(102, 102, 102);
+}
+
+.partner_button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #ff4e50;
+    background-color: white;
+    border: 2px solid #ff4e50;
+    border-radius: 25px 25px;
+    padding: 13px 70px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+    .partners {
+        padding: 72px 2rem 0;
+    }
+
+    .partners_title {
+        margin-bottom: 30px;
+    }
+
+    .partner_card_container {
+        width: 659px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        text-align: center;
+        margin: 0 auto;
+    
+    }
+
+    .partner_card {
+        margin-bottom: 58px;
+        width: 220px;
+    }
+
+    .second_card {
+        order: 2;
+    }
+
+    .third_card {
+        order: 1;
+    }
+
+    .fourth_card {
+        order: 3;
+    }
+
+    .partner_button {
+        padding: 13px 30px;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    .partner_card_container{
+        width: 910px;
+        margin: 0 auto;
+    }
+}
