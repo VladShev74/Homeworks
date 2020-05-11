@@ -1,0 +1,138 @@
+.main {
+}
+
+.comments {
+    padding: 0 1rem;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.comments__first_title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #330cf4;
+    font-weight: 700;
+    text-transform: uppercase;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.comments__first_title:before {
+    content: "";
+    width: 60px;
+    height: 1px;
+    background-color: #babdc1;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 21px;
+}
+
+.comments__first_title:after {
+    content: "";
+    width: 60px;
+    height: 1px;
+    background-color: #babdc1;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 21px;
+}
+
+.comments__second_title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #330cf4;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 52px;
+}
+
+.comments__user_card {
+}
+
+.comments__first_card {}
+
+.comments__second_card {
+    display: none;
+}
+
+.comments__third_card {
+    display: none;
+}
+
+.comments__fourth_card {
+    display: none;
+}
+
+.comments__user_card--img_box {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid #c4c7c7;
+    width: 103px;
+    height: 103px; 
+    overflow: hidden;
+    margin: 0 auto 30px; 
+}
+
+.comments__user_card--img {
+    width: 63px;
+    height: 90px;
+}
+
+.comments__user_card--username {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #062033;
+}
+
+.comments__user_card--activity {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #646464;
+    margin-bottom: 30px;
+}
+
+.comments__user_card--text_wrapper {
+    margin-bottom: 24px;
+}
+
+.comments__user_card--text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(40, 37, 40);
+}
+
+.comments__btn_wrapper {
+    margin: 0 auto 109px;
+    width: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.comments__btn {
+    width: 10px;
+    height: 10px;
+    background-color: #d4d3d4;
+    border-radius: 50%;
+}
+
+.comments__btn:hover {
+    background-color: #330cf4;
+}
+
+.comments__first_btn:hover + .comments__first_card {
+    display: block;
+}
+
+.comments__second_btn:hover + .comments__second_card {
+    display: block;
+}
+
+.comments__third_btn {}
+
+.comments__fourth_btn {}
